@@ -1,0 +1,123 @@
+
+*{
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
+
+    color: #009688;
+
+    border: 5px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    text-align: center;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    font-style: italic;
+    font-size: larger;
+
+    color: #009688;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    text-align:left;
+}
+
+#datos_personales{
+    display: inline-block;
+}
+
+#imagen{
+    float: left;
+}
+
+#contenido{
+  
+   text-align: left;
+}
+
+#contacto{
+    display:inline-block;
+    background-color: aquamarine;
+    height: auto;
+    width: 10%;
+    vertical-align: top;
+    z-index: 100;
+}
+
+#pie{
+    display: block;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#contenedor1{
+    width: 80%;
+    display: inline-block;
+}
+
+#form{
+    position: fixed;
+    z-index: 999;
+    top: 25%;
+    left: 30%;
+    background-color: azure;
+    text-shadow: none;
+    text-decoration-color: azure;
+    
+}
+
+#agradecimiento{
+    position: fixed;
+    z-index: 999;
+    top: 25%;
+    left: 30%;
+    background-color: azure;
+}
+
+.foto{
+    width: auto;
+    height: 480px;
+}
+
+.bot{
+    background-color: aliceblue;
+    border-radius: 5%;
+    border: 3px solid black;
+}
+
+.negrita{
+    font-weight: 800;
+}
+
+.sub{
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: left;
+}
